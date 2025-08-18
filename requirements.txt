@@ -1,0 +1,10 @@
+streamlit
+langchain
+langgraph
+langsmith
+qdrant-client
+openai
+pypdf
+requests
+python-dotenv
+pytest

@@ -1,0 +1,30 @@
+﻿# Python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# Local data/uploads
+data/
+uploads/
+*.db
+*.sqlite
+
+# Vector DB artifacts
+chroma/
+qdrant/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# VERY IMPORTANT: secrets
+.env
