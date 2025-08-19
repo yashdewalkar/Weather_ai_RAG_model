@@ -1,4 +1,4 @@
-# app.py
+
 import os
 import hashlib
 import tempfile
@@ -9,10 +9,10 @@ from dotenv import load_dotenv, find_dotenv
 # Load .env (keys, config)
 load_dotenv(find_dotenv(filename=".env"), override=True)
 
-# Import your pipeline
+# Import 
 from ai_pipeline import answer_query
 try:
-    # Optional: if your pipeline exposes compute_doc_id, we'll use it
+    
     from ai_pipeline import compute_doc_id as _pipeline_compute_doc_id
 except Exception:
     _pipeline_compute_doc_id = None
